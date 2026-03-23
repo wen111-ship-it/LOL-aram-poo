@@ -41,6 +41,7 @@ public  class Aventurier :Personnage
         this.ArmeEquipee = arme;
         Parler($"{this.Nom} équipe {arme.Nom}.");
     }
+    public
 
     
 }
