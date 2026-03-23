@@ -41,7 +41,11 @@ public  class Aventurier :Personnage
         this.ArmeEquipee = arme;
         Parler($"{this.Nom} équipe {arme.Nom}.");
     }
-    public
+    public void Soigner(int points)
+    {
+        this.PointsDeVie += points;
+        Parler($"{this.Nom} se soigne et gagne {points} points de vie. Il a maintenant {this.PointsDeVie} points de vie.");
+    }
 
     
 }
