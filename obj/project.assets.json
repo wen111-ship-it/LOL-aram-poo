@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cours mira\\prog\\poo\\aventur\\aventur.csproj",
+      "projectUniqueName": "D:\\cours mira\\prog\\poo\\LOL project\\aventur.csproj",
       "projectName": "aventur",
-      "projectPath": "D:\\cours mira\\prog\\poo\\aventur\\aventur.csproj",
+      "projectPath": "D:\\cours mira\\prog\\poo\\LOL project\\aventur.csproj",
       "packagesPath": "C:\\Users\\wen.tv\\.nuget\\packages\\",
-      "outputPath": "D:\\cours mira\\prog\\poo\\aventur\\obj\\",
+      "outputPath": "D:\\cours mira\\prog\\poo\\LOL project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wen.tv\\AppData\\Roaming\\NuGet\\NuGet.Config"
