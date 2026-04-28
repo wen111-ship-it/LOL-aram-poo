@@ -1,0 +1,22 @@
+D:\cours mira\prog\poo\aventur\bin\Debug\net10.0\aventur.exe
+D:\cours mira\prog\poo\aventur\bin\Debug\net10.0\aventur.deps.json
+D:\cours mira\prog\poo\aventur\bin\Debug\net10.0\aventur.runtimeconfig.json
+D:\cours mira\prog\poo\aventur\bin\Debug\net10.0\aventur.dll
+D:\cours mira\prog\poo\aventur\bin\Debug\net10.0\aventur.pdb
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.GeneratedMSBuildEditorConfig.editorconfig
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.AssemblyInfoInputs.cache
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.AssemblyInfo.cs
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.csproj.CoreCompileInputs.cache
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.dll
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\refint\aventur.dll
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.pdb
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\aventur.genruntimeconfig.cache
+D:\cours mira\prog\poo\aventur\obj\Debug\net10.0\ref\aventur.dll
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.GeneratedMSBuildEditorConfig.editorconfig
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.AssemblyInfoInputs.cache
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.AssemblyInfo.cs
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.csproj.CoreCompileInputs.cache
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.sourcelink.json
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.dll
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\refint\aventur.dll
+D:\cours mira\prog\poo\LOL project\obj\Debug\net10.0\aventur.pdb

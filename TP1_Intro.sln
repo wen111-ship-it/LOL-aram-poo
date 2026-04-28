@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aventur", "aventur.csproj", "{281E1CD7-040F-ED11-FEA2-9447DC90E833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP1_Intro", "TP1_Intro.csproj", "{EDAD8DB6-B3DE-B106-B59F-B2A114047FAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{281E1CD7-040F-ED11-FEA2-9447DC90E833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{281E1CD7-040F-ED11-FEA2-9447DC90E833}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{281E1CD7-040F-ED11-FEA2-9447DC90E833}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{281E1CD7-040F-ED11-FEA2-9447DC90E833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAD8DB6-B3DE-B106-B59F-B2A114047FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAD8DB6-B3DE-B106-B59F-B2A114047FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAD8DB6-B3DE-B106-B59F-B2A114047FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAD8DB6-B3DE-B106-B59F-B2A114047FAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {99D2E793-C10E-4FCD-9672-7AEE88B7EDFF}
+		SolutionGuid = {330E2B9A-A003-4F39-B742-91606F6C611E}
 	EndGlobalSection
 EndGlobal
