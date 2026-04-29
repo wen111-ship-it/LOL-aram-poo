@@ -1,13 +1,13 @@
 public static class GameManager
 {
-public static int Money { get; set; } = 2000;
+    public static int points { get; set; } = 1000;
+    public static int Shots { get; set; } = 0;
+    public static int Hits { get; set; } = 0;
 
-public static int energy { get; set; } = 0;
-public static int water { get; set; } = 0;
-public static void DisplayStats()
-{
-    Console.WriteLine($"Money: {Money}");
-    Console.WriteLine($"Energy: {energy}");
-    Console.WriteLine($"Water: {water}");
-}
+    public static void DisplayStats()
+    {
+        Console.WriteLine($"Points: {points}");
+        Console.WriteLine($"Tirs: {Shots}");
+        Console.WriteLine($"Touchés: {Hits}");
+    }
 }
