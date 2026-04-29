@@ -1,28 +1,34 @@
-public class Navires 
+using System;
 
+public abstract class Navires 
 {
-    public Navires(string Name, int Size, int Cost, ConsoleColor color = ConsoleColor.White)
+    public Navires(string name, int size, int cost)
     {
-        Name = Name;
-        Size = Size;
-        Cost = Cost;
-        Color = color;
-    }   
-    public ConsoleColor Color { get; set; }
-    public string Name { get;set;}/*nom du bâtiment*/
-    public int Size { get;set;}/*taille du batiment */
-    public int Cost { get;set;}/*coût du bâtiment*/
-    public int Hits { get; set; } = 0;/*nombre de fois que le bâtiment a été touché*/
-    public bool IsSunk => Hits >= Size; //indique si le bâtiment est coulé
+        Name = name;
+        Size = size;
+        Cost = cost;
+        Color = ConsoleColor.White; // Couleur par défaut
+        IsHit = false;
+    }
 
+    public string Name { get; set; }
+    public int Size { get; set; }
+    public int Cost { get; set; }
+    public int Hits { get; set; } = 0;
+    public bool IsSunk => Hits >= Size;
+    public ConsoleColor Color { get; set; }
+    public bool IsHit { get; set; }
+
+    // Méthode abstraite - chaque bateau doit définir son symbole
+    public abstract char GetSymbol();
+
+    // Méthode appelée quand le bateau est touché
     public void Hit()
     {
         Hits++;
+        IsHit = true;
+        Color = ConsoleColor.Red; // Passe au rouge quand touché
     }
 
-    public virtual char GetSymbol()//
-    {
-        return 'S';
-    }
-}
     
+}
