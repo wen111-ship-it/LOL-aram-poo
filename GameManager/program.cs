@@ -1,4 +1,4 @@
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 SeaMap seaMapPlayer = new SeaMap(10, 10);
 
