@@ -2,7 +2,7 @@ public static class QuitHelper
 {
     public static void AskForQuit()
     {
-        Console.WriteLine("\nAppuyez sur Q pour quitter ou entrez une autre touche pour continuer...");
+        Console.WriteLine("\nAppuyez sur Q pour  comfirmer quitter ou entrez une autre touche pour continuer...");
         string? quitInput = Console.ReadLine();
 
         if (!string.IsNullOrEmpty(quitInput) && quitInput.ToLower() == "q")
