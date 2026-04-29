@@ -37,12 +37,16 @@ foreach (Navires ship in playerShips)
         Console.WriteLine("  Orientation: h = horizontal (en LIGNE), v = vertical (en COLONNE)");
         Console.WriteLine("  Exemple: A 0 h   -> place le bateau horizontalement à partir de A0");
         string? input = Console.ReadLine();
-        QuitHelper.AskForQuit();
+        
 
         if (string.IsNullOrWhiteSpace(input))
             continue;
 
         string[] parts = input.Split(' ');
+        if (parts.Length == 1 && parts[0].ToLower() == "q")
+        {
+            QuitHelper.AskForQuit();
+        }
 
         if (parts.Length >= 3 && 
             char.TryParse(parts[0].ToUpper(), out char letterX) && 
@@ -85,6 +89,7 @@ while (true)
     enemy.SeaMap.DisplayRadar();
     
     
+    
 
     if (enemy.HasLost)
     {
@@ -97,11 +102,14 @@ while (true)
         Console.WriteLine("\nEntrez les coordonnées pour tirer (lettre chiffre) ou 'q' pour quitter:");
         string? input = Console.ReadLine();
 
-        if (input == null || input.ToLower() == "q")
-            break;
-
-        string[] parts = input.Split(' ');
-
+        
+string[] parts = input.Split(' ');
+        if (parts.Length == 1 && parts[0].ToLower() == "q")
+        {
+            QuitHelper.AskForQuit();
+        }
+        
+        
         if (parts.Length == 2 && char.TryParse(parts[0].ToUpper(), out char letterX) && int.TryParse(parts[1], out int y))
         {
             int x = SeaMap.LetterToX(letterX);
