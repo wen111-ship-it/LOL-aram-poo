@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SeaMap 
 {
@@ -197,6 +198,11 @@ public class SeaMap
     }
 
     public int ShipCount => _ships.Count;
+
+    public bool AllShipsSunk()
+    {
+        return _ships.All(ship => ship.IsSunk);
+    }
 
     // Méthode pour l'ordinateur pour tirer sur cette carte
     public bool EnemyFire(int x, int y)

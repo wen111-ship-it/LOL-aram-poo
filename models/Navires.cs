@@ -1,7 +1,7 @@
 public class Navires 
 
 {
-    public Navires(string Name, int Size,int Cost,ConsoleColor color)
+    public Navires(string Name, int Size, int Cost, ConsoleColor color = ConsoleColor.White)
     {
         Name = Name;
         Size = Size;
@@ -13,10 +13,14 @@ public class Navires
     public int Size { get;set;}/*taille du batiment */
     public int Cost { get;set;}/*coût du bâtiment*/
     public int Hits { get; set; } = 0;/*nombre de fois que le bâtiment a été touché*/
-    public bool IsSunk => Hits >= Size; //indique si le bâtiment est cou
+    public bool IsSunk => Hits >= Size; //indique si le bâtiment est coulé
 
+    public void Hit()
+    {
+        Hits++;
+    }
 
-    public virtual char getsymbol()//
+    public virtual char GetSymbol()//
     {
         return 'S';
     }
