@@ -1,0 +1,21 @@
+public class Aventurier
+{
+    public string Nom;
+
+    public int PointsDeVie;
+    public int Force;
+
+    //methode (Action)
+
+    public void Attaquer(Aventurier cible)
+    {
+        Console.WriteLine($"{this.Nom}attaque{cible.Nom} !");
+        //on modifie l'état de l'AUTRE objet
+        cible.PointsDeVie=cible.PointsDeVie-this.Force;
+    }
+    public void SeReposer()
+    {
+        Console.WriteLine($"{this.Nom} se repose...");
+        this.PointsDeVie+=5;
+    }
+}

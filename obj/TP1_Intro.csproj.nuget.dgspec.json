@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cours mira\\prog\\poo\\sharpcity1\\TP1_Intro.csproj": {}
+    "D:\\cours mira\\prog\\poo\\LOL project\\TP1_Intro.csproj": {}
   },
   "projects": {
-    "D:\\cours mira\\prog\\poo\\sharpcity1\\TP1_Intro.csproj": {
+    "D:\\cours mira\\prog\\poo\\LOL project\\TP1_Intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cours mira\\prog\\poo\\sharpcity1\\TP1_Intro.csproj",
+        "projectUniqueName": "D:\\cours mira\\prog\\poo\\LOL project\\TP1_Intro.csproj",
         "projectName": "TP1_Intro",
-        "projectPath": "D:\\cours mira\\prog\\poo\\sharpcity1\\TP1_Intro.csproj",
+        "projectPath": "D:\\cours mira\\prog\\poo\\LOL project\\TP1_Intro.csproj",
         "packagesPath": "C:\\Users\\wen.tv\\.nuget\\packages\\",
-        "outputPath": "D:\\cours mira\\prog\\poo\\sharpcity1\\obj\\",
+        "outputPath": "D:\\cours mira\\prog\\poo\\LOL project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wen.tv\\AppData\\Roaming\\NuGet\\NuGet.Config"
